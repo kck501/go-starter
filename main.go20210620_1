@@ -1,0 +1,13 @@
+package main
+
+import "fmt" // go裡面沒有' '
+func main() {
+
+	sum := 1
+	for sum < 3 {
+		sum += sum
+	}
+	fmt.Println(sum)
+	// sum(1)+sum(1) = 2
+	// sum(2)+sum(2) = 4
+} //重點在於拆解

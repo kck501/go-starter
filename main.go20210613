@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+// 宣告帶兩個參數的函式，參數與回傳值型別皆為整數
+func del(x int, y int) int {
+	return x - y
+}
+
+func add(x int, y int) int { //邏輯需要確認
+	return x + y
+}
+
+// 呼叫函式並儲存至 x 變數
+var x = add(del(3, 5), 25) //也可以在變數中做處理.
+
+func main() {
+	// 印出 x 變數
+	fmt.Println(x) // 結果：//函數包夾函數
+}

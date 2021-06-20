@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	sum := 0                  // :等於var
+	for i := 0; i < 10; i++ { // i是次數 開始是0, i<10(條件)用;隔開,i++ori--
+		sum += i //邏輯處理
+	}
+	fmt.Println(sum) //
+	// i=0, sum(0)+i(0) = 0
+	// i=1, sum(0)+i(1) = 1
+	// i=2, sum(1)+i(2) = 3
+	// i=3, sum(3)+i(3) = 6
+	// i=4, sum(6)+i(4) = 10
+	// i=5, sum(10)+i(5)= 15
+	// i=6, sum(15)+i(6) = 21
+	// i=7, sum(21)+i(7) = 28
+	// i=8, sum(28)+i(8) = 36
+	// i=9  sum(36)+i(9) = 45
+	// i=10 跳脫迴圈
+
+}
